@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Knewave&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');
+body {
+    background-color: #EEEDDE;
+    
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+}
+.title {
+    font-family: 'Knewave';
+}
+.title-resp {
+    font-size: 64px;
+    color: rgba(20,20,20,0.9);
+}
+.nav-title {
+    vertical-align: middle;
+    font-size: 36px;
+    color: rgba(255,255,255,0.9);
+}
+.carousel-cust {
+    height: 300px;
+    width: 450px;
+}
+.logo-image {
+    width: 260px;
+}
+.text-resp {
+    font-size: 18px;
+}
+.t-bold {
+    font-weight: 600;
+}
+.nav-icon {
+    height: 40px;
+}
+@media(max-width:991px) {
+    .carousel-cust {
+        height: auto;
+        width: auto;
+    }
+    .logo-image {
+        width: 500px;
+    }
+    .nav-icon {
+        height: 100px;
+    }
+    .text-resp {
+        font-size: 32px;
+    }
+    .title-resp {
+        font-size: 96px;
+        color: rgba(20,20,20,0.9);
+    }
+    .nav-title {
+        vertical-align: middle;
+        font-size: 88px;
+        color: rgba(255,255,255,0.9);
+    }
+    .navbar-cust {
+        height: 800px;
+    }
+}
